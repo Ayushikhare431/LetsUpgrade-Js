@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSIGNMENT 1/DAY 2</title>
+
+</head>
+
+<body>
+    <script>
+        // question.1 program to search for a particular character in a string
+        let str = "this is aayushi";
+        console.log(str.includes("t"));
+
+
+
+
+        // Question.2 program to convert minute into seconds
+        let min;
+        function convert(min) {
+            minute = min * 60;
+            return minute;
+        }
+        let conversion = convert(12);
+        console.log(`The conversion of 12 minute into second is :${conversion}`);
+        let conversion2 = convert(17);
+        console.log(`The conversion of 17 minute into second is :${conversion2}`);
+
+        // Question.3 program to search for an element in an string of array
+
+        let array = ["ayushi", "khare", "2", "xyz", "sarthak", "pradumna", 89];
+        let found = array.includes(89);
+        console.log(found);
+
+
+        // question.4 program to diaplay only elements containing 'a' in them from an array
+
+        let names = ["ayushi", "amit", "billiyansh", "ritu", "jamuna", "atharav", "a"];
+        for (let i = 0; i <= names.length; i++) {
+            if (names[i] == 'a') {
+                console.log(names[i]);
+            }
+        }
+
+        // Question.5  print an array in reverse order
+
+        let name = ["ayushi", "khare"];
+        console.log(name.reverse());
+
+    </script>
+</body>
+
+</html>
